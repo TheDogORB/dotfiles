@@ -1,0 +1,4 @@
+[ffxiv_dx11.exe]
+AllowTearing=1
+TearingPrevention=0
+LatencyPolicy=0
