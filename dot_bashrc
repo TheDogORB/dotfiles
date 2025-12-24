@@ -1,0 +1,22 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# Aliases
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias vim='nvim'
+#alias egrep="/usr/bin/grep -E"
+#alias rm='rm -I --preserve-root'
+
+# Visual stuff
+#PS1='[\u@\h \W]\$ '
+PS1='  \[\e[34m\]\u \[\e[38;5;81m\]\W \[\e[0m\]> '
+fastfetch
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+export PATH=$PATH:$HOME/go/bin
