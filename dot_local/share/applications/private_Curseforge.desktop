@@ -1,0 +1,15 @@
+[Desktop Entry]
+Comment=Curse Forge
+Exec=/home/thedogorb/AppImages/curseforge.appimage
+GenericName=Curse Forge
+Icon=/home/thedogorb/AppImages/curseforge.png
+Name=Curse Forge
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

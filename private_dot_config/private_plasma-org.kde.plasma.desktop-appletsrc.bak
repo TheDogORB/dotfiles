@@ -35,6 +35,42 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
+[Containments][109][Applets][110]
+immutability=1
+plugin=org.kde.plasma.kickoff
+
+[Containments][109][Applets][110][Configuration]
+PreloadWeight=100
+popupHeight=521
+popupWidth=655
+
+[Containments][109][Applets][110][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][109][Applets][110][Configuration][General]
+favoritesPortedToKAstats=true
+icon=/home/thedogorb/Documents/Wallpapers/icons/archlinux-icon-crystal-256.svg
+systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
+
+[Containments][109][Applets][111]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][109][Applets][111][Configuration]
+popupHeight=400
+popupWidth=560
+
+[Containments][109][Applets][111][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][109][Applets][111][Configuration][General]
+launchers=preferred://browser
+
+[Containments][109][General]
+AppletOrder=110;111
+
 [Containments][167]
 activityId=
 formfactor=2
@@ -104,7 +140,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][167][Applets][168][Applets][174][Configuration]
-PreloadWeight=70
+PreloadWeight=65
 
 [Containments][167][Applets][168][Applets][175]
 immutability=1
@@ -145,7 +181,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][167][Applets][168][Applets][182][Configuration]
-PreloadWeight=7
+PreloadWeight=28
 
 [Containments][167][Applets][168][Applets][193]
 immutability=1
@@ -160,7 +196,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][167][Applets][168][Applets][195][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][167][Applets][168][Applets][49][Configuration]
 PreloadWeight=42
@@ -188,7 +224,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][167][Applets][168][Applets][60][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][167][Applets][168][Applets][61][Configuration]
 PreloadWeight=42
@@ -197,13 +233,13 @@ PreloadWeight=42
 PreloadWeight=42
 
 [Containments][167][Applets][168][ConfigDialog]
-DialogHeight=1262
+DialogHeight=1364
 DialogWidth=720
 
 [Containments][167][Applets][168][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.volume,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.clipboard
 hiddenItems=org.kde.plasma.notifications,openrgb,org.kde.plasma.clipboard
-knownItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.kscreen,org.kde.plasma.volume
+knownItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.kscreen,org.kde.plasma.volume,com.github.exequtic.apdatifier
 shownItems=org.kde.plasma.brightness,org.kde.plasma.keyboardlayout
 
 [Containments][167][Applets][183]
@@ -244,7 +280,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][167][Applets][186][Configuration]
-PreloadWeight=100
+PreloadWeight=90
 popupHeight=323
 popupWidth=338
 
@@ -278,7 +314,7 @@ popupHeight=289
 popupWidth=432
 
 [Containments][167][Applets][187][Configuration][ConfigDialog]
-DialogHeight=1386
+DialogHeight=1406
 DialogWidth=720
 
 [Containments][167][Applets][187][Configuration][General]
@@ -290,22 +326,15 @@ notifyEveryBump=false
 notifyNews=false
 notifySound=false
 notifyUpdates=false
-rightAction=management
-scrollDownAction=
 scrollUpAction=checkUpdates
 time=360
 
 [Containments][167][Applets][187][Configuration][Miscellaneous]
-configMsg=false
 rulesMsg=false
-timestamp=1766604017025
+timestamp=1765464943794
 version=v2.9.4
 
 [Containments][167][Applets][187][Configuration][Upgrade]
-dynamicUrl=https://archlinux.org/mirrorlist/?protocol=https&ip_version=4&use_mirror_status=on&country=CZ
-mirrorCount=10
-mirrorProgress=true
-mirrors=age
 terminal=/usr/bin/kitty
 wrapper=paru
 
@@ -360,54 +389,6 @@ length=3
 [Containments][167][General]
 AppletOrder=190;187;189;188;183;185;192;186;184;168;191
 
-[Containments][214]
-activityId=
-formfactor=2
-immutability=1
-lastScreen=1
-location=4
-plugin=org.kde.panel
-wallpaperplugin=org.kde.image
-
-[Containments][214][Applets][215]
-immutability=1
-plugin=org.kde.plasma.kickoff
-
-[Containments][214][Applets][215][Configuration]
-PreloadWeight=100
-popupHeight=521
-popupWidth=655
-
-[Containments][214][Applets][215][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][214][Applets][215][Configuration][General]
-alphaSort=true
-favoritesPortedToKAstats=true
-highlightNewlyInstalledApps=false
-icon=/home/thedogorb/Documents/Wallpapers/icons/archlinux-icon-crystal-256.svg
-paneSwap=true
-systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
-
-[Containments][214][Applets][216]
-immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][214][Applets][216][Configuration]
-popupHeight=400
-popupWidth=560
-
-[Containments][214][Applets][216][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][214][Applets][216][Configuration][General]
-launchers=preferred://browser
-
-[Containments][214][General]
-AppletOrder=215;216
-
 [Containments][25]
 ItemGeometries-2560x1440=
 ItemGeometries-640x480=
@@ -442,14 +423,6 @@ location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][27][Applets][201]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][27][Applets][201][Configuration][General]
-expanding=false
-length=3
-
 [Containments][27][Applets][45]
 activityId=
 formfactor=0
@@ -464,12 +437,6 @@ wallpaperplugin=org.kde.image
 [Containments][27][Applets][45][Applets][166]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
-
-[Containments][27][Applets][45][Applets][217][Configuration]
-PreloadWeight=42
-
-[Containments][27][Applets][45][Applets][218][Configuration]
-PreloadWeight=42
 
 [Containments][27][Applets][45][Applets][46]
 immutability=1
@@ -497,7 +464,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][27][Applets][45][Applets][50][Configuration]
-PreloadWeight=85
+PreloadWeight=65
 
 [Containments][27][Applets][45][Applets][51][Configuration]
 PreloadWeight=42
@@ -552,14 +519,14 @@ PreloadWeight=42
 PreloadWeight=42
 
 [Containments][27][Applets][45][ConfigDialog]
-DialogHeight=1308
+DialogHeight=1364
 DialogWidth=720
 
 [Containments][27][Applets][45][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller
-hiddenItems=org.kde.plasma.notifications,openrgb,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller
-knownItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.kscreen,org.kde.plasma.volume
-shownItems=org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,BatteryIcon
+extraItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.volume,org.kde.plasma.brightness,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.clipboard
+hiddenItems=org.kde.plasma.notifications,openrgb,org.kde.plasma.clipboard
+knownItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.kscreen,org.kde.plasma.volume,com.github.exequtic.apdatifier
+shownItems=org.kde.plasma.brightness,org.kde.plasma.keyboardlayout
 
 [Containments][27][Applets][62]
 immutability=1
@@ -574,7 +541,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][27][Applets][65][Configuration]
-PreloadWeight=70
+PreloadWeight=55
 popupHeight=451
 popupWidth=560
 
@@ -598,7 +565,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][27][Applets][66][Configuration]
-PreloadWeight=85
+PreloadWeight=80
 popupHeight=323
 popupWidth=338
 
@@ -644,22 +611,15 @@ notifyEveryBump=false
 notifyNews=false
 notifySound=false
 notifyUpdates=false
-rightAction=management
-scrollDownAction=
 scrollUpAction=checkUpdates
 time=360
 
 [Containments][27][Applets][70][Configuration][Miscellaneous]
-configMsg=false
 rulesMsg=false
-timestamp=1766604017020
+timestamp=1765464943789
 version=v2.9.4
 
 [Containments][27][Applets][70][Configuration][Upgrade]
-dynamicUrl=https://archlinux.org/mirrorlist/?protocol=https&ip_version=4&use_mirror_status=on&country=CZ
-mirrorCount=10
-mirrorProgress=true
-mirrors=age
 terminal=/usr/bin/kitty
 wrapper=paru
 
@@ -668,7 +628,7 @@ immutability=1
 plugin=org.kde.olib.thermalmonitor
 
 [Containments][27][Applets][71][Configuration]
-PreloadWeight=80
+PreloadWeight=75
 popupHeight=360
 popupWidth=560
 
@@ -695,6 +655,14 @@ plugin=org.kde.plasma.panelspacer
 expanding=false
 length=3
 
+[Containments][27][Applets][74]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][27][Applets][74][Configuration][General]
+expanding=false
+length=3
+
 [Containments][27][Applets][75]
 immutability=1
 plugin=org.kde.plasma.panelspacer
@@ -704,7 +672,7 @@ expanding=false
 length=3
 
 [Containments][27][General]
-AppletOrder=73;70;72;71;62;65;75;66;64;45;201
+AppletOrder=73;70;72;71;62;65;75;66;64;45;74
 
 [Containments][76]
 activityId=

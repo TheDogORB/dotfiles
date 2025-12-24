@@ -1,0 +1,15 @@
+[Desktop Entry]
+Comment=warcraftlogs.com
+Exec=/home/thedogorb/AppImages/warcraftlogs.png
+GenericName=Warcraft logs
+Icon=/home/thedogorb/AppImages/warcraftlogs.png
+Name=Warcraft logs
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

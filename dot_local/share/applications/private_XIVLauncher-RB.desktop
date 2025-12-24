@@ -1,0 +1,16 @@
+[Desktop Entry]
+Categories=Application;Game;
+Comment=Custom launcher for Final Fantasy XIV Online with RB Patches
+Exec=\sDOTNET_ROOT=/home/thedogorb/.xlcore/runtime /usr/bin/xivlauncher-rb
+Icon=xivlauncher-rb
+Name=XIVLauncher-RB (AUR)
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+StartupWMClass=XIVLauncher.Core
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
