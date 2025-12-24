@@ -1,0 +1,10 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/.xlcore/installedPlugins/Glamourer/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled
+splitterSizes=1118,153
