@@ -1,4 +1,4 @@
-#### Just a bunch of .files 
+## Just a bunch of my Arch KDE Dotfiles
 
 ### Includes settings for following pacman packages:
 > ark btop dolphin easyeffects gamemode kitty mangohud nvim openrazer-daemon openrgb plasma-meta
