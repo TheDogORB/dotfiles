@@ -44,13 +44,13 @@ ActiveSecondOutlineUsePalette=true
 ActiveShadowAlpha=255
 ActiveShadowUseCustom=true
 InactiveCornerRadius=15
-InactiveOutlineThickness=0
+InactiveOutlineThickness=0.75
 InactiveSecondOutlineThickness=0
 InactiveShadowAlpha=255
 InactiveShadowColor=255,0,0
 InactiveShadowSize=99
 InactiveShadowUseCustom=true
-OutlineThickness=0
+OutlineThickness=0.75
 SecondOutlineThickness=0
 ShadowColor=255,0,0
 ShadowSize=99
@@ -79,7 +79,7 @@ Scale=1
 XwaylandEavesdropsMouse=true
 
 [org.kde.kdecoration2]
-BorderSize=None
+BorderSize=NoSides
 BorderSizeAuto=false
 library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Layan
