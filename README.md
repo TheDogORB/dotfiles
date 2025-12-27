@@ -14,6 +14,10 @@ For proper usage following deps must be installed:
 > openrazer-driver-dkms python-openrazer
 
 ### Themes cheatsheet
+#### Blue
+
+![Blue](https://github.com/TheDogORB/dotfiles/blob/main/Documents/Images/previews/blue.png)
+
 #### Layan - Grey themed 
 - Kvantum: Layan
 - Kitty: kitty.conf.bk-grey
@@ -25,3 +29,4 @@ For proper usage following deps must be installed:
 - Cursor: Breeze Dark
 
 ![Layan - Grey](https://github.com/TheDogORB/dotfiles/blob/main/Documents/Images/previews/layan-grey.png)
+
