@@ -27,12 +27,16 @@ WindowClasses=class1\nclass2\nclass3\nkitty
 [Effect-overview]
 BorderActivate=9
 
+[MouseBindings]
+CommandAll2=Resize
+
 [NightColor]
 Active=true
 NightTemperature=2500
 
 [Plugins]
 blurEnabled=true
+krohnkiteEnabled=true
 overviewEnabled=false
 screenedgeEnabled=false
 shakecursorEnabled=false
@@ -43,6 +47,8 @@ ActiveSecondOutlineUseCustom=false
 ActiveSecondOutlineUsePalette=true
 ActiveShadowAlpha=255
 ActiveShadowUseCustom=true
+DisableOutlineTile=false
+DisableRoundTile=false
 InactiveCornerRadius=15
 InactiveOutlineThickness=0.75
 InactiveSecondOutlineThickness=0
@@ -56,30 +62,51 @@ ShadowColor=255,0,0
 ShadowSize=99
 Size=15
 
-[TabBox]
-LayoutName=compact
+[Script-krohnkite]
+binaryTreeLayoutOrder=2
+cascadeLayoutOrder=0
+columnsLayoutOrder=0
+floatingLayoutOrder=1
+monocleLayoutOrder=0
+monocleMaximize=false
+quarterLayoutOrder=0
+screenGapBetween=10
+screenGapBottom=10
+screenGapLeft=10
+screenGapRight=10
+screenGapTop=10
+spiralLayoutOrder=0
+spreadLayoutOrder=0
+stackedLayoutOrder=0
+stairLayoutOrder=0
+threeColumnLayoutOrder=0
+tileLayoutOrder=0
 
 [Tiling]
-padding=4
+padding=10
 
 [Tiling][b4263099-49b3-47a5-9760-20ffaae4b12c][]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][b4263099-49b3-47a5-9760-20ffaae4b12c][362d7bcc-eb2c-4e31-8ed7-5429d4f0bdf7]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5625},{"width":0.4375}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.51484375},{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.4851562499999994}]}
 
 [Tiling][b4263099-49b3-47a5-9760-20ffaae4b12c][9af106e5-591f-4b73-9e9d-9de658101b42]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][b4263099-49b3-47a5-9760-20ffaae4b12c][eb72bf34-3795-4cc2-a7df-00a36a99bc94]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"vertical","tiles":[{"height":1}]}
+
+[Windows]
+ActiveMouseScreen=false
+SeparateScreenFocus=true
 
 [Xwayland]
 Scale=1
 XwaylandEavesdropsMouse=true
 
 [org.kde.kdecoration2]
-BorderSize=NoSides
+BorderSize=None
 BorderSizeAuto=false
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Layan
+library=sierrabreezeenhanced
+theme=Sierra Breeze Enhanced

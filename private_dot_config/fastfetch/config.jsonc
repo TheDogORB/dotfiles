@@ -100,6 +100,11 @@
         },
         {
             "type":	"memory",
+            "key":	" ├─",
+            "keyColor":	"34",
+        },
+        {
+            "type":	"swap",
             "key":	" └─",
             "keyColor":	"34",
         },
