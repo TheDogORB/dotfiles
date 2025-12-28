@@ -15,6 +15,17 @@ For proper usage following deps must be installed:
 
 ### Themes cheatsheet
 #### Blue
+- Kvantum: Slot-Dark-Kvantum
+- Kitty: kitty.conf.bk-blue
+- Color: Slot-Dark-Colorscheme
+- Application style: Kvantum
+- Plasma style: ROUNDED COLOR
+- Window decoration: Sierra Breeze Enhanced
+- Icons: Tela dark
+- Cursor: Breeze Dark
+- Desktop effects: Geometry change, Rounded Corners (formerly ShapeCorners)
+- Kwin scripts: Kronkhite
+- Wallpaper: [WE Calm river](https://steamcommunity.com/sharedfiles/filedetails/?id=1201340849) 
 
 ![Blue](https://github.com/TheDogORB/dotfiles/blob/main/Documents/Images/previews/blue.png)
 
