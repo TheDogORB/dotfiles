@@ -37,16 +37,20 @@ NightTemperature=2500
 [Plugins]
 blurEnabled=true
 krohnkiteEnabled=true
+kwin4_effect_geometry_changeEnabled=true
 overviewEnabled=false
 screenedgeEnabled=false
 shakecursorEnabled=false
 zoomEnabled=false
 
 [Round-Corners]
+ActiveOuterOutlineUseCustom=false
+ActiveOuterOutlineUsePalette=true
 ActiveSecondOutlineUseCustom=false
 ActiveSecondOutlineUsePalette=true
 ActiveShadowAlpha=255
 ActiveShadowUseCustom=true
+AnimationDuration=150
 DisableOutlineTile=false
 DisableRoundTile=false
 InactiveCornerRadius=15
@@ -56,6 +60,7 @@ InactiveShadowAlpha=255
 InactiveShadowColor=255,0,0
 InactiveShadowSize=99
 InactiveShadowUseCustom=true
+OuterOutlineThickness=0.75
 OutlineThickness=0.75
 SecondOutlineThickness=0
 ShadowColor=255,0,0
