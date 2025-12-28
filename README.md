@@ -23,8 +23,8 @@ For proper usage following deps must be installed:
 - Window decoration: Sierra Breeze Enhanced
 - Icons: Tela dark
 - Cursor: Breeze Dark
-- Desktop effects: Geometry change, Rounded Corners (formerly ShapeCorners)
-- Kwin scripts: Kronkhite
+- Desktop effects: [Geometry change](https://store.kde.org/p/2136283), [Rounded Corners (formerly ShapeCorners)](https://github.com/matinlotfali/KDE-Rounded-Corners)
+- Kwin scripts: [Kronhkite](https://store.kde.org/p/1281790/)
 - Wallpaper: [WE Calm river](https://steamcommunity.com/sharedfiles/filedetails/?id=1201340849) 
 
 ![Blue](https://github.com/TheDogORB/dotfiles/blob/main/Documents/Images/previews/blue.png)
