@@ -1,5 +1,5 @@
 [StreamInputs]
-inputDevice=easyeffects_sink
+inputDevice=alsa_input.usb-3142_fifine_Microphone-00.analog-stereo
 
 [StreamOutputs]
 outputDevice=alsa_output.usb-GuangZhou_FiiO_Electronics_Co._Ltd_FiiO_K5_Pro-00.analog-stereo
